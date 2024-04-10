@@ -1,0 +1,48 @@
+body { 
+    background-color: black;   
+    color: aliceblue; /*text color*/
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-style: italic;
+    background-color: darkgray;
+    opacity: 85%;
+}
+a{
+    color:aqua ;
+}
+a:visited{
+    color: cornflowerblue;
+}
+img{
+    border: 2px solid fuchsia;
+    padding: 3px;
+    margin: 5px;
+    /*centers stuff */
+    /*display: block;
+    margin: auto;*/
+}
+.imgcenter{  /*this is centering the image. You don't need the dot when putting it down. */
+    display: block;
+    margin: auto; 
+}
+.rizz{  /* we are making new style. .new style */
+    font-style: oblique;
+    font-family: cursive;
+    color: orange;
+    font-size: 14;
+    background-color: lime;
+    border: dashed blue
+}
+li {
+    text-decoration: overline;
+}
+li:hover {
+    text-decoration: underline;
+}
+
